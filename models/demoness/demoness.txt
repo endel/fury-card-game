@@ -1,0 +1,131 @@
+12-07-99
+***** THIS PLUGIN-PLAYER-MODEL IS OFFICIALLY AUTHORIZED BY RAVEN SOFTWARE
+***** HOWEVER, DON'T EMAIL THEM WITH TECH QUESTIONS ABOUT IT
+***** USE THE EMAIL ADDRESS LISTED BELOW IF YOU HAVE QUESTIONS OR COMMENTS REGARDING THE PPM
+================================================================
+
+Model Name              : Demoness (Succubus)
+
+installation directory  : quake2/baseq2/players/Demoness
+
+Author                  : RavenSoftware, ported and edited by Pascal "Firebrandt" Jurock
+
+Email Address           : pascal@jurock.com
+
+Website Address         : -----
+
+Model description       : 
+
+        "The Demoness is a unique creature--the only one of her kind.
+        Through powerful wizardry she was created by Eidolon as the
+        first of a new race of magic-wielding minions.  The Demoness
+        was to be the mother of her kind, but the Serpent Rider never
+        had the opportunity to complete his work."
+                                        -- The Portals of Praevus Manual
+
+
+Other info              : 
+        TRIS INFO:
+	There are some minor cosmetic changes and bug fixes that I did to the
+	model and I made some new frames for the Q2 native animations.  Nothing fancy,
+	but I hate ppm's that don't have wave animations, so I went and quickly did a few.	
+	The original weapon model I used for the main vwep aligning was
+        somewhat corrupted (see weaponorg.md2+pcx), therefore some of
+        the vweps have a slightly "wobbly" look to them, but this is only 
+	noticable when looking at the stand animation.  Sorry, but the only 
+	way to fix this is to do a manual re-align of every frame.
+	
+	VWEP INFO:
+	The viewable weapons included in this model are all based on Hexen2 and/or
+	H2:PoP designs and ideas and Raven retains all copyrights to the models,
+	skins and their likenesses.
+	You might notice how the vweps use a somewhat less than generic skin-
+	naming scheme, but this is purposely done to allow interchanging of vwep
+	md2's.  (ex. want the Purifier to be the Hyperblaster instead of the
+	Railgun?  just rename w_railgun.md2 to w_hyperblaster.md2.  you don't have to
+	worry about renaming the skins this way)
+
+	VWEP KEY (default):
+	Blaster 	= Sickle
+	Shotgun		= Crossbow
+	SuperShotgun	= MeteorStaff
+	Machinegun	= SaphireWand
+	Chaingun	= TempestStaff
+	Grenadelauncher	= ScarabStaff
+	RocketLauncher	= RavenStaff
+	Hyperblaster	= SunStaff	
+	Railgun		= Purifier
+	BFG10K		= Wings of the Fallen Angel ;)
+	XATRIX:
+	IonRipper	= Staff of Ra
+	PhalanxCannon	= Staff of Anubis
+	
+	The following aren't activated by default but may be used to substitute any weapon:
+	Weapon.md2 (TempestStaff hilt)
+	Weaponorg.md2 (original H2 weapon (TempestStaff))
+	Icemace.md2 and Firemace.md2 (two weapon alternatives but they wobble alot :( )
+
+	I might add ROGUE vwep support but nobody seems to play it anymore, and now with
+	Quake3Arena finally out I'm probably gonna concentrate mainly on the Q3 modeling scene.
+	
+Additional Credits to   : 
+	* IdSoftware 
+        * RavenSoftware (for the models, skins and sounds that are included in this ppm)
+        * The Hexen2 Siege and CTF guys for their skins
+
+Thanks to               :
+        * The geniusesss working at iD and Raven for creating the
+        coolest games in the universe!!!
+        * Raven's Project Administrator Kenn Hoekstra for giving me the all-go
+	on this project
+	* Eric Turman and Mike Werckle who were the two lead animators for Portals 
+	of Praevus and are most likely responsible for this models origination
+	(if this is wrong please someone correct me)
+        * Everyone who made all the programs I used or who I might have
+        forgotten to mention, Thanx
+================================================================
+
+* Play Information *
+
+New Sounds              : YES (also taken from Hexen2)
+
+CTF Skins               : YES (4 of 'em!)
+
+VWEP Support            : YES, all custom based on hexen2 ideas and designs   
+			(XATRIX exp. pack supported)
+                           
+                          
+
+
+* Construction *
+
+Poly Count              : 463 tris.md2 
+
+Vert Count              : 270 tris.md2 
+
+Skin Count              : 7 DM, 4 CTF
+
+Base                    : The original succubus.mdl from the Hexen2: Portals
+                          of Praevus mission pack.
+                          
+
+Editors used             : 
+                Q2modeler
+                Paint Shop Pro 5
+                NST
+                QME Lite
+		
+Known Bugs              : A little vwep "wobbling" during some frames, some
+                          wasted skin space (I didn't feel like remapping the skin. 
+			  It looks fine), and interpolation causes some strange 
+			  effects during the flip sequence, barely noticable though.
+
+Build/Animation time    : hmm... I started it in July 99 but it has been sitting idle on my hardrive 
+			  for awhile now.
+
+* Copyright / Permissions *
+QUAKE(R) and QUAKE II(R) are registered trademarks of id Software, Inc.
+HEXEN2(R) and PORTALS OF PRAEVUS(R) are registered trademarks of RavenSoftware, Inc.
+This model is not to be distributed as part of any commercial product.
+It may only be distributed electronically and free of charge.
+RavenSoftware retains all the rights to this model, its skin, and its likeness.
